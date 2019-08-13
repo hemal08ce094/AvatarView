@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AvatarView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="Qks-0a-dP7">
+                                <rect key="frame" x="20" y="201" width="374" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nQ5-R1-0s1" customClass="RoundedUIView" customModule="AvatarView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0073.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="Lz4-h6-Oxf" customClass="RoundedImageView" customModule="AvatarView" customModuleProvider="target">
+                                                <rect key="frame" x="3.5" y="3.5" width="73" height="73"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="73" id="3s0-UX-082"/>
+                                                    <constraint firstAttribute="height" constant="73" id="kNd-Pz-7Em"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Lz4-h6-Oxf" firstAttribute="centerX" secondItem="nQ5-R1-0s1" secondAttribute="centerX" id="QjX-G5-fF4"/>
+                                            <constraint firstAttribute="width" constant="80" id="eeq-23-Qiw"/>
+                                            <constraint firstAttribute="height" constant="80" id="pao-6L-P2C"/>
+                                            <constraint firstItem="Lz4-h6-Oxf" firstAttribute="centerY" secondItem="nQ5-R1-0s1" secondAttribute="centerY" id="x4x-95-LNh"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ss4-9a-uQD" customClass="RoundedUIView" customModule="AvatarView" customModuleProvider="target">
+                                        <rect key="frame" x="147" y="0.0" width="80" height="80"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0073.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="4iy-zB-vCv" customClass="RoundedImageView" customModule="AvatarView" customModuleProvider="target">
+                                                <rect key="frame" x="3.5" y="3.5" width="73" height="73"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="73" id="Bp6-0R-4BP"/>
+                                                    <constraint firstAttribute="width" constant="73" id="mx0-jF-KQz"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="4iy-zB-vCv" firstAttribute="centerX" secondItem="ss4-9a-uQD" secondAttribute="centerX" id="1AK-6X-4o9"/>
+                                            <constraint firstItem="4iy-zB-vCv" firstAttribute="centerY" secondItem="ss4-9a-uQD" secondAttribute="centerY" id="6Uf-Cn-WD4"/>
+                                            <constraint firstAttribute="width" constant="80" id="VD0-Zm-Nyt"/>
+                                            <constraint firstAttribute="height" constant="80" id="eta-hV-rSL"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cMg-7K-pG7" customClass="RoundedUIView" customModule="AvatarView" customModuleProvider="target">
+                                        <rect key="frame" x="294" y="0.0" width="80" height="80"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0073.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="UCs-ds-gp5" customClass="RoundedImageView" customModule="AvatarView" customModuleProvider="target">
+                                                <rect key="frame" x="3.5" y="3.5" width="73" height="73"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="73" id="3qr-Xm-dpi"/>
+                                                    <constraint firstAttribute="height" constant="73" id="MeC-qQ-cF6"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="UcU-kY-dDu"/>
+                                            <constraint firstAttribute="width" constant="80" id="bTB-gr-IZR"/>
+                                            <constraint firstItem="UCs-ds-gp5" firstAttribute="centerX" secondItem="cMg-7K-pG7" secondAttribute="centerX" id="lu0-US-RDs"/>
+                                            <constraint firstItem="UCs-ds-gp5" firstAttribute="centerY" secondItem="cMg-7K-pG7" secondAttribute="centerY" id="q92-MA-4GX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="roundView" destination="nQ5-R1-0s1" id="HAa-eH-AfN"/>
+                        <outlet property="roundView1" destination="ss4-9a-uQD" id="WaS-8Y-LEW"/>
+                        <outlet property="roundView2" destination="cMg-7K-pG7" id="xmj-XU-Nfq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57.971014492753625" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_0073.JPG" width="3024" height="4032"/>
+    </resources>
+</document>
